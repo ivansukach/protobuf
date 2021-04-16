@@ -5,9 +5,9 @@ package issue530
 
 import (
 	fmt "fmt"
-	_ "github.com/gogo/protobuf/gogoproto"
-	proto "github.com/gogo/protobuf/proto"
-	github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
+	_ "github.com/ivansukach/protobuf/gogoproto"
+	proto "github.com/ivansukach/protobuf/proto"
+	github_com_gogo_protobuf_sortkeys "github.com/ivansukach/protobuf/sortkeys"
 	io "io"
 	math "math"
 	math_bits "math/bits"

@@ -5,7 +5,7 @@ package sub
 
 import (
 	fmt "fmt"
-	proto "github.com/gogo/protobuf/proto"
+	proto "github.com/ivansukach/protobuf/proto"
 	math "math"
 )
 

@@ -6,10 +6,10 @@ package types
 import (
 	bytes "bytes"
 	fmt "fmt"
-	_ "github.com/gogo/protobuf/gogoproto"
-	proto "github.com/gogo/protobuf/proto"
-	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
-	types "github.com/gogo/protobuf/types"
+	_ "github.com/ivansukach/protobuf/gogoproto"
+	proto "github.com/ivansukach/protobuf/proto"
+	github_com_gogo_protobuf_types "github.com/ivansukach/protobuf/types"
+	types "github.com/ivansukach/protobuf/types"
 	io "io"
 	math "math"
 	math_bits "math/bits"
@@ -40,7 +40,7 @@ type KnownTypes struct {
 	Bool  *types.BoolValue   `protobuf:"bytes,9,opt,name=bool,proto3" json:"bool,omitempty"`
 	Str   *types.StringValue `protobuf:"bytes,10,opt,name=str,proto3" json:"str,omitempty"`
 	Bytes *types.BytesValue  `protobuf:"bytes,11,opt,name=bytes,proto3" json:"bytes,omitempty"`
-	// TODO uncomment this once https://github.com/gogo/protobuf/issues/197 is fixed
+	// TODO uncomment this once https://github.com/ivansukach/protobuf/issues/197 is fixed
 	St                   *types.Struct `protobuf:"bytes,12,opt,name=st,proto3" json:"st,omitempty"`
 	XXX_NoUnkeyedLiteral struct{}      `json:"-"`
 	XXX_unrecognized     []byte        `json:"-"`
